@@ -117,31 +117,11 @@ python test_mobarak.py --data maskwise_endonasal --snapshot_path /checkpoints --
 python test_GPT_maskwise.py --data maskwise_endonasal --snapshot_path /checkpoints --data_prefix /data
 ```
 
----
-
-## Citation
-
-```bibtex
-@article{Gong20233DSAMadapterHA,
-  title={3DSAM-adapter: Holistic Adaptation of SAM from 2D to 3D for Promptable Medical Image Segmentation},
-  author={Gong, Shizhan and Zhong, Yuan and Ma, Wenao and Li, Jinpeng and Wang, Zhao and Zhang, Jingyang and Heng, Pheng-Ann and Dou, Qi},
-  journal={arXiv preprint arXiv:2306.13465},
-  year={2023}
-}
-
-!!!!!TO BE CHANGED BELOW!!!!!!
-@misc{Kavtaradze2025SAM3DText,
-  title={SAM3DText: Text-Prompted Interactive Model for MRI Pituitary Tumor Segmentation},
-  author={Kavtaradze, Sergi and Clarkson, Matt and Hoque, Mobarak I},
-  year={2025},
-  howpublished={Project report}
-}
-```
 
 ---
 
 ## Acknowledgements
 
-Based on Segment-Anything and 3DSAM-adapter. Preprocessing with MONAI. Text integration inspired by recent multi-modal foundation models.
+Based on Segment-Anything and [3DSAM-adapter](https://arxiv.org/pdf/2306.13465). Preprocessing with MONAI. Text integration inspired by recent multi-modal foundation models.
 
 ---
